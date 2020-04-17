@@ -1,0 +1,312 @@
+﻿/*Extra Large Layout: 1200px.*/
+@media (min-width: 1200px) {
+    .screen {
+        max-width: 90%;
+    }
+}
+
+
+/*Large Layout: 992px.*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .screen {
+        max-width: 92%;
+    }
+
+    /*Header*/
+    #header .header_content p {
+        width: 70%;
+    }
+
+    /*Latest News*/
+    #latest_news .col_6 {
+        width: 40%;
+        padding: 40px 2.5%;
+        margin: 0 2.5%;
+        margin-bottom: 50px;
+    }
+
+    /*Appointment*/
+    #appointment form {
+        width: 60%;
+        padding: 5%;
+    }
+}
+
+
+/*Tablet Layout: 768px.*/
+@media (min-width: 768px) and (max-width: 992px) {
+    .screen {
+        max-width: 93%;
+    }
+
+    /*Header*/
+    #header .header_content p {
+        width: 80%;
+    }
+
+    /*Featured*/
+    #featured .col_2 {
+        float: none;
+        width: 70%;
+        margin: 0 auto 100px auto;
+    }
+
+    /*Services*/
+    #services .col_3 {
+        width: 70%;
+        padding: 40px 5%;
+        margin: 0 auto 50px auto;
+        float: none;
+    }
+
+    /*Doctors*/
+    #doctors .col_6 {
+        width: 40%;
+        padding: 40px 2.5%;
+        margin: 0 2.5%;
+        margin-bottom: 50px;
+    }
+
+    /*Latest News*/
+    #latest_news .col_6 {
+        width: 40%;
+        padding: 40px 2.5%;
+        margin: 0 2.5%;
+        margin-bottom: 50px;
+    }
+
+    /*Appointment*/
+    #appointment form {
+        width: 70%;
+        padding: 5%;
+    }
+
+    /*Footer*/
+    #footer .footer_column .col_3 {
+        width: 40%;
+        padding: 0 5%;
+    }
+}
+
+
+/*Wide Mobile Layout: ≥576px.*/
+@media (min-width: 576px) and (max-width: 767px) {
+    .screen {
+        max-width: 95%;
+    }
+
+    /*Header*/
+    #header .header_content p {
+        width: 90%;
+    }
+
+    /*Featured*/
+    #featured .col_2 {
+        float: none;
+        width: 85%;
+        margin: 0 auto 100px auto;
+    }
+
+    /*Services*/
+    #services .col_3 {
+        width: 80%;
+        padding: 40px 5%;
+        margin: 0 auto 50px auto;
+        float: none;
+    }
+
+    /*Doctors*/
+    #doctors .col_6 {
+        width: 85%;
+        padding: 40px 2.5%;
+        margin: 0 5%;
+        margin-bottom: 50px;
+    }
+
+    /*Latest News*/
+    #latest_news .col_6 {
+        width: 85%;
+        padding: 40px 2.5%;
+        margin: 0 5%;
+        margin-bottom: 50px;
+    }
+
+    /*Appointment*/
+    #appointment form {
+        width: 80%;
+        padding: 5%;
+    }
+
+    /*Footer*/
+    #footer .footer_column .col_3 {
+        width: 45%;
+        padding: 0 2.5%;
+    }
+}
+
+
+/*Device-pixel-ratio of 2+*/
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+    .screen {
+        max-width: 95%;
+    }
+
+    /*Header*/
+    #header .header_content p {
+        width: 90%;
+    }
+
+    /*Featured*/
+    #featured .col_2 {
+        float: none;
+        width: 85%;
+        margin: 0 auto 100px auto;
+    }
+
+    /*Services*/
+    #services .col_3 {
+        width: 80%;
+        padding: 40px 5%;
+        margin: 0 auto 50px auto;
+        float: none;
+    }
+
+    /*Doctors*/
+    #doctors .col_6 {
+        width: 85%;
+        padding: 40px 2.5%;
+        margin: 0 5%;
+        margin-bottom: 50px;
+    }
+
+    /*Latest News*/
+    #latest_news .col_6 {
+        width: 85%;
+        padding: 40px 2.5%;
+        margin: 0 5%;
+        margin-bottom: 50px;
+    }
+
+    /*Appointment*/
+    #appointment form {
+        width: 80%;
+        padding: 5%;
+    }
+
+    /*Footer*/
+    #footer .footer_column .col_3 {
+        width: 45%;
+        padding: 0 2.5%;
+    }
+}
+
+
+/*Small Mobile Layout: <576px.*/
+@media only screen and (max-width: 576px) {
+    .screen {
+        max-width: 97%;
+    }
+
+    /*Featured*/
+    #featured .col_2 {
+        float: none;
+        width: 100%;
+        margin: 0 auto 100px auto;
+    }
+
+    /*Header*/
+    #header .header_content p {
+        width: 100%;
+    }
+
+    /*Services*/
+    #services .col_3 {
+        width: 90%;
+        padding: 40px 2.5%;
+        margin: 0 auto 50px auto;
+        float: none;
+    }
+
+    /*Doctors*/
+    #doctors .col_6 {
+        width: 90%;
+        padding: 40px 2.5%;
+        margin: 0 2.5%;
+        margin-bottom: 50px;
+    }
+
+    /*Discount*/
+    #discount form input[type=email] {
+        width: 55%;
+    }
+
+    /*Latest News*/
+    #latest_news .col_6 {
+        width: 90%;
+        padding: 40px 2.5%;
+        margin: 0 2.5%;
+        margin-bottom: 50px;
+    }
+
+    /*Appointment*/
+    #appointment form {
+        width: 90%;
+        padding: 2.5%;
+    }
+
+    /*Footer*/
+    #footer .footer_column .col_3 {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+}
+
+/* Start Responsive Menu */
+@media only screen and (max-width: 768px) {
+    .header_bg {
+        height: 100%;
+    }
+
+    .toggle {
+        display: block;
+    }
+
+    .toggle .toggleSpan2 {
+        display: none;
+    }
+
+    #header .header_top #menu {
+        float: none;
+        margin: 0;
+    }
+
+    #header .header_top #menu ul {
+        width: 100%;
+        display: none;
+        margin-top: 30px;
+    }
+
+    #header .header_top #menu ul li {
+        display: block;
+        float: none;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    #header .header_top #menu ul li a {
+        display: inline-block;
+    }
+
+    #header .header_top #menu ul li ul.expand {
+        -webkit-box-shadow: 0px 2px 8px 1px #2b6d0b;
+        box-shadow: 0px 2px 8px 1px #2b6d0b;
+        top: 2px;
+        position: inherit;
+        border-radius: 3px;
+        margin-left: auto;
+    }
+}
+
+/* Finish Responsive Menu */
